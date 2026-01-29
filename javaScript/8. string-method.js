@@ -45,6 +45,7 @@ console.log(str.trim());
 let title = "apnaCollege";
 
 console.log(title.slice(0, 4));
+console.log(title.slice(3));
 
 
 
@@ -56,7 +57,24 @@ let str2 = "Uddin";
 
 console.log(str1.concat(str2));
 
-let res = "my name is "  + str1 + str2 + 123; //another way
+let res = "my name is " + str1 + str2 + 123; //another way
 console.log(res);
 
 
+
+
+// str.replace method ("searchVal ", "newVal");  string er jekono value dhoro and oi value ta soriye onno value dite paro ---
+
+
+let val = "i love you aisha";
+console.log(val.replace("love", "hate"));
+
+
+
+
+// str.charAt(); index mane jekono string er value find kore debo tar position onujayi;
+
+
+let str3 = "kamaluddin";
+console.log(str3.charAt(2)); // string position find
+console.log(str3[0]); // string indices position find in string
