@@ -2,7 +2,7 @@
  *  for of loop / also use string or array
  *******************************/
 
-// string value print
+// string value print   
 let str = "kamaluddin";
 for (let val of str) {
     console.log("val =", val);
