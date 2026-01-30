@@ -26,6 +26,16 @@ for (let i = 0; i <= 10; i = i + 2) {
     console.log("even =", i);
 }
 
+// ODD
 for (let i = 1; i <= 10; i += 2) {
     console.log("ODD =", i)
 }
+
+
+// sum 200 -250 
+let sum = 0;
+for (let i = 200; i <= 250; i++) {
+    sum += i;
+    console.log(i)
+}
+console.log(`sum of all numbers from 200 to 250 ${sum}`);
