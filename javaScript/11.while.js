@@ -26,3 +26,23 @@ while (range <= 10) {
 
 
 // SUM =======
+
+// let number = 1;
+// let sum = 0;
+// while (number <= 5) {
+//     console.log(number);
+//     sum = sum + number;
+//     console.log("sum =", sum);
+//     number++;
+// }
+
+
+let number = 1;
+let sum = 0;
+while (number <= 5) {
+    console.log(number)
+    sum += number;
+    console.log(`sum = ${sum}`);
+    number++;
+}
+console.log("Total sum =", sum);
