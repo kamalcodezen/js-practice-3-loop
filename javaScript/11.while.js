@@ -53,7 +53,6 @@ console.log("Total sum =", sum);
 
 let j = 1;
 while (j <= 10) {
-    console.log(j);
     if (j % 2 === 0) {
         console.log(`even number ${j}`);
     }
@@ -75,4 +74,32 @@ let n = 20;
 while (n >= 10) {
     console.log(n);
     n--;
+}
+
+
+
+// 1st way even number check
+let s = 0;
+while (s <= 10) {
+    if (s % 2 === 0) {
+        console.log("This is even number =", s);
+    }
+    s++;
+};
+
+
+// 2nd way even number check
+let f = 0;
+while (f <= 10) {
+    if (f % 2 !== 1) {
+        console.log("this is even number", f);
+    }
+    f++;
+}
+
+// 3rd way different
+let k = 0;
+while (k <= 10) {
+    console.log("this is even number ==", k);
+    k += 2;
 }
